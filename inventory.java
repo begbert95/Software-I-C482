@@ -4,6 +4,8 @@ public class inventory {
     private static allParts;
     private static allProducts;
 
+
+    
     public static void addPart(newPart: Part) {
         allParts.add(newPart);
     }
