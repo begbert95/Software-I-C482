@@ -1,6 +1,6 @@
 import java.util.ObservableList;
 
-public class Product {
+public class Product extends Part {
     private int id;
     private String name;
     private double price;
