@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GuiAnimals">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GuiAnimals/dist/GuiAnimals.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

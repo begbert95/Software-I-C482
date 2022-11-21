@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SearchTwoTableview">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SearchTwoTableview/dist/SearchTwoTableview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

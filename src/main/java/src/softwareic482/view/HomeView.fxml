@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="300.0" layoutX="25.0" layoutY="100.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2.0" width="450.0" />
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="300.0" layoutX="525.0" layoutY="100.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2.0" width="450.0" />
+      <Label alignment="CENTER" layoutX="235.0" text="Inventory Management System" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="delPartButton" layoutX="405.0" layoutY="361.0" mnemonicParsing="false" onAction="#delPartScreen" text="Delete" />
+      <Button fx:id="editPartButton" layoutX="360.0" layoutY="361.0" mnemonicParsing="false" onAction="#editPartScreen" text="Edit" />
+      <Button fx:id="addPartButton" layoutX="314.0" layoutY="361.0" mnemonicParsing="false" onAction="#addPartScreen" text="Add" />
+      <Button fx:id="delProdButton" layoutX="899.0" layoutY="361.0" mnemonicParsing="false" onAction="#delProdScreen" text="Delete" />
+      <Button fx:id="editProdButton" layoutX="854.0" layoutY="361.0" mnemonicParsing="false" onAction="#editProdScreen" text="Edit" />
+      <Button fx:id="addProdButton" layoutX="808.0" layoutY="361.0" mnemonicParsing="false" onAction="#addProdScreen" text="Add" />
+      <Label fx:id="plLabel" contentDisplay="TEXT_ONLY" layoutX="224.0" layoutY="107.0" text="Parts">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="ilLabel" layoutX="704.0" layoutY="107.0" text="Products">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TableView fx:id="partTable" layoutX="50.0" layoutY="150.0" prefHeight="200.0" prefWidth="400.0">
+        <columns>
+          <TableColumn prefWidth="50.0" text="Part ID" />
+          <TableColumn prefWidth="150.0" text="Name" />
+            <TableColumn prefWidth="50.0" text="Stock" />
+            <TableColumn prefWidth="150.0" text="Cost per unit" />
+        </columns>
+      </TableView>
+      <TableView fx:id="productTable" editable="true" layoutX="550.0" layoutY="150.0" prefHeight="200.0" prefWidth="400.0">
+         <columns>
+            <TableColumn text="Product ID" />
+            <TableColumn prefWidth="164.0" text="Name" />
+            <TableColumn prefWidth="50.0" text="Stock" />
+            <TableColumn prefWidth="105.0" text="Cost per unit" />
+         </columns>
+      </TableView>
+      <Button fx:id="exitB" layoutX="877.0" layoutY="509.0" mnemonicParsing="false" onAction="#shutdown" prefHeight="63.0" prefWidth="99.0" text="Exit" />
+   </children>
+</AnchorPane>

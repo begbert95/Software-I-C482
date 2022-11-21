@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="C482 Code Repository">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/passing_the_football.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ModifyTableviewMakery.zip!/" />
+      <root url="jar://$PROJECT_DIR$/C482_CourseSelector.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Populate Data.zip!/" />
+      <root url="jar://$PROJECT_DIR$/working_with_tableviews.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

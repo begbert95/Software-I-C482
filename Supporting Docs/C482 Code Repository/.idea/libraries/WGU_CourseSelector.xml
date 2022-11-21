@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WGU_CourseSelector">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/C482_CourseSelector/WGU_CourseSelector/dist/WGU_CourseSelector.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

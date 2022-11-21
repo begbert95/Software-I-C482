@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/C482 Code Repository.iml" filepath="$PROJECT_DIR$/.idea/C482 Code Repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/C482_CourseSelector/C482_CourseSelector.iml" filepath="$PROJECT_DIR$/C482_CourseSelector/C482_CourseSelector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GuiAnimals/GuiAnimals.iml" filepath="$PROJECT_DIR$/GuiAnimals/GuiAnimals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModifyTableviewMakery/ModifyTableviewMakery.iml" filepath="$PROJECT_DIR$/ModifyTableviewMakery/ModifyTableviewMakery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Populate Data/Populate Data.iml" filepath="$PROJECT_DIR$/Populate Data/Populate Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchTwoTableview/SearchTwoTableview.iml" filepath="$PROJECT_DIR$/SearchTwoTableview/SearchTwoTableview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/passing_the_football/passing_the_football.iml" filepath="$PROJECT_DIR$/passing_the_football/passing_the_football.iml" />
+      <module fileurl="file://$PROJECT_DIR$/working_with_tableviews/working_with_tableviews.iml" filepath="$PROJECT_DIR$/working_with_tableviews/working_with_tableviews.iml" />
+    </modules>
+  </component>
+</project>
